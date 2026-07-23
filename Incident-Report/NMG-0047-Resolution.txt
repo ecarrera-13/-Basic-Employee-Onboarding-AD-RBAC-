@@ -1,0 +1,15 @@
+Ticket number: NMG-0047
+
+Affected user: Jane Cooper (jcooper@NMG.com)
+
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teammates.
+
+Root cause: Upon initial investigation, I discovered that Jane Cooper is part of the Domain Users and Operations-Users OUs; she should be in the HR-Users OU.
+Jane Cooper is a member of: Operations-Users. She should be a member of: HR-Users.
+Jane Cooper being placed in the incorrect Organizational Unit would explain the "Access Denied" and incorrect desktop policies.
+
+Fix applied: Jane Cooper has been moved to the HR-Users OU and removed from the Operations OU. Once moved, I removed her membership from the Operations-Users SG and added her to the HR-Users SG. She is now a member of the correct groups. This will resolve any issues regarding resource access.
+
+Verification: Confirmed that Jane is now a member of the HR-Users OU and Security Group.
+Date resolved: 7/21/26
+Resolved by: IT Enrique Carrera (ecarrera@NMG.com)
