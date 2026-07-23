@@ -28,5 +28,10 @@ To address the issues at Northstar Medical Group, role-based access controls nee
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* Demonstrated adequate usage of access controls by implementing RBAC in the domain.
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Demonstrated adequate usage of access controls by implementing RBAC with security groups mapped to each department.
+* Provisioned 20 user accounts with consistent naming conventions and attribute standards.
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis
 * Gained hands-on experience with the tools and methodology I have learned about in theory throughout certification courses.
+* Completed my first IAM/security project
